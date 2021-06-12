@@ -1,0 +1,145 @@
+/* fontes */
+@import url("https://fonts.googleapis.com/css2?family=Denk+One&display=swap");
+
+.code2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.code2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.code2 h2 code {
+  font-size: 82px;
+  font-weight: bold;
+  font-family: "Denk One", sans-serif;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+.code2 p {
+  margin: 0 auto;
+  color: #fff;
+  width: 470px;
+  letter-spacing: 0.1em;
+}
+
+.code2 p:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 14px auto 20px auto;
+}
+
+.contato {
+  padding: 40px 0;
+}
+
+.contato_form {
+  padding-right: 60px;
+}
+
+.contato_form label {
+  display: block;
+  font-family: "Denk One", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 4px;
+  color: #fec63e;
+  text-align: left;
+  letter-spacing: 0.1em;
+}
+
+.contato_form input {
+  color: #fff;
+  display: block;
+  width: 100%;
+  border: 4px solid #fec63e;
+  background: none;
+  padding: 7px 10px;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: "Denk One", sans-serif;
+}
+
+.contato_form textarea {
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 120px;
+  border: 4px solid #fec63e;
+  background: none;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 14px;
+  font-family: "Denk One", sans-serif;
+}
+
+.contato_form button {
+  padding: 7px 40px;
+}
+
+.contato form button {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.contato_dados h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fec63e;
+  text-align: left;
+  padding-bottom: 5px;
+  letter-spacing: 0.1em;
+}
+
+.contato_dados span {
+  color: #fff;
+  text-align: left;
+  display: block;
+  font-size: 16px;
+  padding: 3px;
+  font-family: "Denk One", sans-serif;
+  letter-spacing: 0.1em;
+}
+
+.contato_dados span a {
+  color: #fff;
+}
+
+.contato_dados span a:hover {
+  color: #fec63e;
+}
+
+.contato_dados span:nth-of-type(even) {
+  margin-bottom: 30px;
+}
+
+.contato_dados ul {
+  margin-top: 10px;
+}
+
+.contato_dados ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contato_dados ul li a {
+  display: block;
+  padding: 10px;
+}
+
+.contato_dados ul li a:hover {
+  border-color: #000;
+}
+
+.contato_mapa {
+  margin-bottom: 60px;
+}

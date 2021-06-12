@@ -1,0 +1,526 @@
+/* fontes */
+@import url("https://fonts.googleapis.com/css2?family=Denk+One&display=swap");
+
+/* Estilos Gerais */
+
+body {
+  font-family: "Denk One", sans-serif;
+  background: url(/img/bg-principal.png) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Header */
+
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #1c2226;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 99;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.header_menu ul li a {
+  color: #f2d541;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_drop {
+  background-color: #1c2226;
+}
+
+.header_menu ul ul {
+  display: none;
+  right: 10px;
+  padding-left: 3px;
+  position: absolute;
+  text-align: left;
+}
+
+.header_menu ul li:hover ul {
+  display: block;
+}
+
+.header_menu ul ul {
+  width: 110px;
+  border-radius: 10px;
+  text-align: start;
+}
+
+.header_menu ul ul li {
+  color: #f2d541;
+}
+
+.header_menu ul ul li a {
+  display: block;
+  padding: 0px;
+  font-size: 12px;
+}
+
+/* Introdução */
+.code {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.code h2 code {
+  font-size: 82px;
+  font-weight: bold;
+  font-family: "Denk One", sans-serif;
+  letter-spacing: 0.1em;
+  color: #fff;
+}
+
+.code p {
+  margin: 0 auto;
+  color: #fff;
+  width: 470px;
+  letter-spacing: 0.1em;
+}
+
+.code p:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 14px auto 20px auto;
+}
+
+/* Inicial */
+.box {
+  color: #fff;
+  background: url(/img/Rectangle.png) no-repeat center;
+  background-size: contain;
+  width: 300px;
+  height: 522px;
+  margin-top: 46px;
+}
+
+.box h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-top: 20px;
+}
+
+.box p:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #fff;
+  margin: 10px auto 10px auto;
+}
+
+.box p {
+  width: 280px;
+  height: 160px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img-servicos {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.contato {
+  text-align: center;
+}
+
+.contato button {
+  border-radius: 50px;
+  background-color: #f2d541;
+  border: none;
+  width: 150px;
+  height: 50px;
+  margin-top: 46px;
+}
+
+.contato button:hover {
+  background-color: #fff;
+}
+
+.contato button a {
+  color: #1c2226;
+  padding: 20px 0;
+}
+
+/* Sessão Trabalhos */
+
+.bg-trabalhos {
+  margin-top: 46px;
+  background-color: #f2d541;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 42px;
+  margin-top: 46px;
+  color: #1c2226;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1c2226;
+  margin: 10px auto 10px auto;
+}
+
+.quote-sobre {
+  color: #1c2226;
+  width: 500px;
+  padding-top: 5px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.subh3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 25px;
+  background-color: #777;
+  position: relative;
+  width: 470px;
+  margin-bottom: 9.7px;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  height: 25px;
+  width: 85px;
+  background-color: #ccc;
+  margin-bottom: 8px;
+  border-radius: 20px;
+}
+
+.progress-bar-html {
+  height: 25px;
+  width: 376px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.progress-bar-css {
+  height: 25px;
+  width: 329px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.progress-bar-js {
+  height: 25px;
+  width: 47px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.progress-bar-node {
+  height: 25px;
+  width: 47px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.progress-bar-react {
+  height: 25px;
+  width: 117.5px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.progress-bar-php {
+  height: 25px;
+  width: 14.1px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.progress-bar-java {
+  height: 25px;
+  width: 14.1px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.progress-bar-wordpress {
+  height: 25px;
+  width: 141px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.progress .progress-bar-html p,
+.progress-bar-css p,
+.progress-bar-js p,
+.progress-bar-node p,
+.progress-bar-react p,
+.progress-bar-php p,
+.progress-bar-java p,
+.progress-bar-wordpress p {
+  text-align: center;
+  padding: 5px;
+}
+
+.progress .progress-bar,
+.progress-bar-html,
+.progress-bar-css,
+.progress-bar-js,
+.progress-bar-node,
+.progress-bar-react,
+.progress-bar-php,
+.progress-bar-java,
+.progress-bar-wordpress {
+  position: absolute;
+  height: 100%;
+  background-color: #add555;
+}
+
+/* Serviços  */
+
+.servicos {
+  text-align: right;
+}
+
+.img-servicos2 {
+  width: 190px;
+  height: 190px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.contato-black {
+  text-align: center;
+}
+
+.contato-black button {
+  border-radius: 50px;
+  background-color: #1c2226;
+  border: none;
+  width: 150px;
+  height: 50px;
+  margin-top: 46px;
+  margin-bottom: 46px;
+}
+
+.contato-black button:hover {
+  background-color: #fff;
+}
+
+.contato-black button a {
+  color: #f2d541;
+  padding: 20px 35px;
+}
+
+.contato-black button a:hover {
+  color: #1c2226;
+}
+
+progress {
+  height: 50px;
+  width: 80%;
+}
+
+progress::after {
+  content: attr(data-content);
+}
+
+.texto {
+  color: #1c2226;
+}
+
+.bg-social {
+  background-color: #777;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+
+.bg-social i {
+  color: #fff;
+  padding: 20px 0;
+  margin: 8px 20px;
+}
+
+.bg-social i:hover {
+  color: #f2d541;
+}
+
+.footer-quote {
+  color: #fff;
+  padding: 30px 0;
+}
+
+.quote-brunosilva {
+  padding-top: 10px;
+  letter-spacing: 0.03em;
+}
+
+.quote-brunosilva a {
+  color: #fff;
+}
+
+.quote-brunosilva a:hover {
+  color: #f2d541;
+}
+
+.quote-linksuteis {
+  padding-left: 20px;
+}
+
+.quote-linksuteis h3 {
+  font-size: 30px;
+}
+
+.quote-linksuteis ul {
+  padding-top: 10px;
+}
+
+.quote-linksuteis ul li {
+  padding-top: 8px;
+}
+
+.quote-linksuteis ul li a {
+  color: #fff;
+}
+
+.quote-linksuteis ul li a:hover {
+  color: #f2d541;
+}
+
+.quote-contatoFooter h3 {
+  font-size: 30px;
+}
+
+.quote-contatoFooter ul {
+  padding-top: 10px;
+}
+
+.quote-contatoFooter ul li {
+  padding-top: 3px;
+}
+
+.quote-contatoFooter ul li a {
+  color: #fff;
+}
+
+.quote-contatoFooter ul li a:hover {
+  color: #f2d541;
+}
+
+.quote-contatoFooter ul li i span {
+  padding-left: 10px;
+  font-family: "Denk One", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+}
+
+.footer-copy {
+  text-align: center;
+  color: #1c2226;
+  background-color: #f2d541;
+  padding: 10px;
+  letter-spacing: 0.01em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* JavaScript */
+
+.js [data-slide] {
+  position: relative;
+}
+
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #1d1d1d;
+}
+
+.js [data-slide-nav] button.active {
+  background: #fec63e;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+}
+
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
+}
+
+#form-sucesso {
+  color: #31aa39;
+}
+
+#form-erro {
+  color: #f64540;
+}

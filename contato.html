@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Crie sua identidade visual conosco pelo nosso site Bruno Silva. A criação será feita exclusivamente para você."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contato - Bruno Silva (14) 99693-4440" />
+    <meta
+      property="og:description"
+      content="Crie sua identidade visual conosco pelo nosso site Bruno Silva. A criação será feita exclusivamente para você."
+    />
+    <meta property="og:url" content="https://brsilva.com/contato.html" />
+    <meta property="og:image" content="https://brsilva.com/img/og-image.png" />
+
+    <title>Bruno Silva</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="/css/contato.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h1>
+          <a href="/index.html" class="grid-4"
+            ><img src="/img/logo-bruno-silva.svg" alt="Logo Bruno Silva"
+          /></a>
+        </h1>
+        <nav class="grid-12 header_menu">
+          <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/portfolio.html">PORTFÓLIO</a></li>
+            <li>
+              <a href="/contato.html">CONTATO</a>
+              <ul class="header_drop">
+                <li><a href="mailto:silva.dev@hotmail.com">E-mail</a></li>
+                <li>
+                  <a href="https://api.whatsapp.com/send?phone=5514996934440"
+                    >WhatsApp</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="container">
+      <div class="grid-16 code2">
+        <h2 data-anime="400" class="fadeInDown">
+          <code>&lt;contato&gt;</code>
+        </h2>
+        <p data-anime="700">
+          Entre em contato para solicitar orçamento para o seu site.
+        </p>
+      </div>
+    </section>
+    <section class="contato container" data-anime="1200">
+      <form
+        id="form_orcamento"
+        class="contato_form grid-8"
+        method="POST"
+        action="./enviar.php"
+      >
+        <label for="nome">NOME:</label>
+        <input type="text" id="nome" name="nome" required />
+        <label for="email">E-MAIL:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="telefone">TELEFONE:</label>
+        <input type="text" id="telefone" name="telefone" />
+
+        <label class="nao-aparece"
+          >Se você não é um robô, deixe em branco.</label
+        >
+        <input type="text" class="nao-aparece" name="leaveblank" />
+        <label class="nao-aparece"
+          >Se você não é um robô, não mude este campo.</label
+        >
+        <input
+          type="text"
+          class="nao-aparece"
+          name="dontchange"
+          value="http://"
+        />
+
+        <label for="mensagem">MENSAGEM:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button id="enviar" name="enviar" type="submit">ENVIAR</button>
+      </form>
+      <div class="contato_dados grid-8">
+        <h3>Dados</h3>
+        <span><a href=""> - +55 (14) 99693-4440</a></span>
+        <span><a href=""> - silva.dev@hotmail.com</a></span>
+        <span>- Rua Anésia Pinheiro Machado, 964</span>
+        <span>- Bauru/SP</span>
+      </div>
+    </section>
+    <section class="bg-social" data-anime="1600">
+      <div class="container">
+        <div class="grid-16">
+          <a href="https://www.facebook.com/brunosilva.dvlopr" target="_blank"
+            ><i class="fab fa-facebook fa-3x"></i
+          ></a>
+          <a href="https://www.instagram.com/bsilva.dev/" target="_blank"
+            ><i class="fab fa-instagram fa-3x"></i
+          ></a>
+          <a href="https://github.com/brunosilva-dev" target="_blank"
+            ><i class="fab fa-github fa-3x"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/brunosilva-fullstack/"
+            target="_blank"
+            ><i class="fab fa-linkedin fa-3x"></i
+          ></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5514996934440"
+            target="_blank"
+            ><i class="fab fa-whatsapp fa-3x"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container footer-quote">
+        <div class="grid-1-3">
+          <img
+            src="/img/logo-bruno-silva-final.svg"
+            alt="logo bruno silva final"
+          />
+          <p class="quote-brunosilva">
+            Esse portfólio existe graças a Deus e também as aulas da
+            <a href="https://estacio.br/" target="_blank">
+              Faculdade Estácio de Sá</a
+            >, as aulas da
+            <a href="https://www.origamid.com/" target="_blank"> Origamid</a> e
+            as aulas do
+            <a href="https://devpleno.com/" target="_blank"> DevPleno</a>.
+          </p>
+        </div>
+        <div class="grid-1-3 quote-linksuteis">
+          <h3>LINKS ÚTEIS</h3>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/portfolio.html">Portfólio</a></li>
+            <li><a href="/contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="grid-1-3 quote-contatoFooter">
+          <h3>CONTATO</h3>
+          <ul>
+            <li>
+              <i class="fas fa-home"
+                ><span>Rua Anésia Pinheiro Machado, 964, Bauru-SP</span>
+              </i>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=5514996934440"
+                ><i class="fas fa-mobile-alt"
+                  ><span>+55 (14) 99693-4440</span></i
+                ></a
+              >
+            </li>
+            <li>
+              <a href="mailto:silva.dev@hotmail.com"
+                ><i class="fas fa-envelope"
+                  ><span>silva.dev@hotmail.com</span></i
+                ></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <div class="container">
+          <p>&copy; 2021 Copyright: Bruno Silva</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/simple-slide.js"></script>
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f18d1c98a5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
